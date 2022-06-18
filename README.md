@@ -2,7 +2,8 @@
 
 ## 🤓 참여자
 
-🚀 [Derrickkim](https://github.com/derrickkim0109), [웡빙](https://github.com/wongbingg), [브래드](https://github.com/bradheo65), [백곰](https://github.com/Baek-Gom-95)
+🚀 [Derrickkim](https://github.com/derrickkim0109), [웡빙](https://github.com/wongbingg), [브래드](https://github.com/bradheo65), [백곰](https://github.com/Baek-Gom-95),
+[휴](https://github.com/Hugh-github)
 
 ## 목차 
 - [🤓 공통 Rule](#공통룰)
@@ -182,6 +183,7 @@
 ## 🤓 커밋 컨벤션
 - `chore` : 폴더/파일 구조 변경
 - `docs` : 공통 문서 수정 및 추가
+- `feat` : 기능 구현, 
 
 <a name="브랜치사용방법"></a>
 
