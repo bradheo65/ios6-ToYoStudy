@@ -35,6 +35,8 @@
 |5|2022-05-14|UML, Unit Test, TDD|
 |6|2022-05-21|LLDB|
 |7|2022-05-28|클로저, 고차함수|
+|8|2022-06-04|메모리, ARC, App Life Cycle|
+|9|2022-06-18|TableView|
 
 <details>
 <summary> 1주차(4/16) </summary>
@@ -161,7 +163,7 @@
 
 </div>
 </details>  
-  <details>
+<details>
 <summary> 7주차(5/28) </summary>
 <div markdown="1">
 
@@ -178,6 +180,45 @@
 
 </div>
 </details> 
+
+</div>
+</details>  
+<details>
+<summary> 8주차(6/04) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 8주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- 메모리 구조
+  4개의 메모리 단계에서 각각 어떤 것들을 저장 하는지
+  클래스의 인스턴스는 구조체 내에서 선언 시 어느 영역에 저장되는지
+- ARC
+  참조 카운트가 뭐고 왜 관리해주어야 하는 이유
+- App Life Cycle
+  앱 라이프 사이클을 알야 하는 이유
+</div>
+</details>   
+
+</div>
+</details>
+
+<details>
+<summary> 9주차(6/18) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 9주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- 테이블 뷰
+  스토리보드 대신 코드로 UI 생성 및 constraints 맞춰주기
+  레이블에 따라 데이터 생성 및 넣어주는 방법 생각
+  TableView의 재사용성
+</div>
+</details> 
+
 <a name="커밋컨벤션"></a>
 
 ## 🤓 커밋 컨벤션
