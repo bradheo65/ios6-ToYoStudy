@@ -37,7 +37,8 @@
 |7|2022-05-28|클로저, 고차함수|
 |8|2022-06-04|메모리, ARC, App Life Cycle|
 |9|2022-06-18|TableView|
-
+|10|2022-06-25|동시성 프로그래밍|
+|11|2022-07-02|Protocol Oriented Programing(POP)|
 <details>
 <summary> 1주차(4/16) </summary>
 <div markdown="1">
@@ -219,6 +220,39 @@
 </div>
 </details> 
 
+</div>
+</details>
+
+<details>
+<summary> 10주차(6/25) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 10주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- 동시성 프로그래밍
+    야곰 닷넷에 있는 동시성 프로그래밍 각자 실습
+</div>
+</details> 
+
+</div>
+</details>
+
+<details>
+<summary> 11주차(7/2) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 11주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- POP(Protocol Oriented Programing)
+    프로토콜을 활용해 수평적인 기능확장을 공부
+    프로토콜의 확장을 통해 필요한 기능 모듈화
+</div>
+</details> 
+
 <a name="커밋컨벤션"></a>
 
 ## 🤓 커밋 컨벤션
@@ -238,3 +272,4 @@
 
 ### 📑 폴더명 규칙 
     - 주제 / 본인이름 / 공부내용 
+
