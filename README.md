@@ -39,6 +39,7 @@
 |9|2022-06-18|TableView|
 |10|2022-06-25|동시성 프로그래밍|
 |11|2022-07-02|Protocol Oriented Programing(POP)|
+|12|2022-07-09|Responder Chain|
 <details>
 <summary> 1주차(4/16) </summary>
 <div markdown="1">
@@ -250,6 +251,19 @@
 - POP(Protocol Oriented Programing)
     프로토콜을 활용해 수평적인 기능확장을 공부
     프로토콜의 확장을 통해 필요한 기능 모듈화
+</div>
+</details> 
+
+<details>
+<summary> 12주차(7/9) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 12주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- Responder Chain
+    - hit test를 통해 First Responder 찾기
 </div>
 </details> 
 
