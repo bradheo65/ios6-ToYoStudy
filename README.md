@@ -271,6 +271,19 @@
 </details> 
 
 <details>
+<summary> 13주차(7/16) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 13주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- CollectionView
+    - FlowLayout과 Custom Layout을 이용해 CollectionView 
+</div>
+</details> 
+
+<details>
 <summary> 14주차(7/23) </summary>
 <div markdown="1">
 
