@@ -279,7 +279,7 @@
 
 ## ✏️ 공부한내용
     - Cache, NSCache, URLCache
-    -[]()
+    - [정리한 내용 링크](https://github.com/bradheo65/ios6-ToYoStudy/blob/master/NSCache%26URLCache/docs/NSCache%EC%99%80%20URLCache.md)
 </div>
 </details> 
 
