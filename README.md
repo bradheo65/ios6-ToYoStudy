@@ -270,7 +270,7 @@
 </div>
 </details> 
 
-details>
+<details>
 <summary> 14주차(7/23) </summary>
 <div markdown="1">
 
