@@ -93,11 +93,10 @@ extension UIImageView {
                 print("캐시된 데이터가 있습니다.")
                 DispatchQueue.main.async {
                     self.image = cachedImage
-                    if let completion = completion {
+                    if let completion = completion { // 타이밍
                         completion()
                     }
                 }
-                
                 return
             }
             guard let url = URL(string: url) else { return }
@@ -114,7 +113,7 @@ extension UIImageView {
                         ImageCacheManager.shared.setObject(image, forKey: cachedKey)
                         print("새로운 이미지를 받아왔습니다.")
                         self?.image = image
-                        if let completion = completion {
+                        if let completion = completion { // 타이밍
                             completion()
                         }
                     }
