@@ -291,12 +291,24 @@
 ### 📚 14주차 [6기] 오후 C반 스터디
 
 ## ✏️ 공부한내용
-    - Cache, NSCache, URLCache
+    - UIView Animation, animateKeyframe
     
    [정리한 내용 링크](https://github.com/bradheo65/ios6-ToYoStudy/blob/master/NSCache%26URLCache/docs/NSCache%EC%99%80%20URLCache.md)
 </div>
 </details> 
 
+<details>
+<summary> 15주차(8/20) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 15주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+    - Cache, NSCache, URLCache
+    - UIView animate 메소드를 통해 UIImage에 애니메이션을 추가ㅎ
+</div>
+</details> 
 
 <a name="커밋컨벤션"></a>
 
