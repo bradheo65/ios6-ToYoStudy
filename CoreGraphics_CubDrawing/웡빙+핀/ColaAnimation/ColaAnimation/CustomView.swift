@@ -20,7 +20,6 @@ class CustomView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        layer.anchorPoint = CGPoint(x: 300, y: 250)
         backgroundColor = .systemBackground
         isUserInteractionEnabled = true
         let touchGesture = UITapGestureRecognizer(target: self, action: #selector(actionss))
@@ -50,12 +49,11 @@ class CustomView: UIView {
     }
     
     func configureStraw() {
-        straw.anchorPoint = CGPoint(x: 300, y: 250)
-        strawBezierPath.move(to: CGPoint(x: 140, y: 650))
-        strawBezierPath.addLine(to: CGPoint(x: 300, y: 250))
-        strawBezierPath.move(to: CGPoint(x: 300, y: 250)) // rotate
-        strawBezierPath.addLine(to: CGPoint(x: 380, y: 180))
-        
+        straw.position = CGPoint(x: 300, y: 250)
+        strawBezierPath.move(to: CGPoint(x: -130, y: 380))
+        strawBezierPath.addLine(to: CGPoint(x: 0, y: 0))
+        strawBezierPath.move(to: CGPoint(x: 0, y: 0)) // rotate point
+        strawBezierPath.addLine(to: CGPoint(x: 80, y: -70))
         straw.strokeColor = UIColor.black.cgColor
         straw.fillColor = UIColor.systemBackground.cgColor
         straw.lineWidth = 20
@@ -89,14 +87,14 @@ class CustomView: UIView {
     @objc func actionss() {
         let drinkJuice = CABasicAnimation(keyPath: "position.y")
         drinkJuice.fromValue = 0
-        drinkJuice.toValue = 700
-        drinkJuice.duration = 1
+        drinkJuice.toValue = 400
+        drinkJuice.duration = 1.5
         drinkJuice.autoreverses = true
-        
+      
         let rotateStraw = CABasicAnimation(keyPath: "transform.rotation.z")
         rotateStraw.fromValue = 0
-        rotateStraw.toValue = Double.pi/15
-        rotateStraw.duration = 1
+        rotateStraw.toValue = -Double.pi / 20
+        rotateStraw.duration = 1.5
         rotateStraw.autoreverses = true
         shape.add(drinkJuice, forKey: "positionY_Action")
         straw.add(rotateStraw, forKey: "rotationAnimation")
